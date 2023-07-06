@@ -9,7 +9,7 @@ html {
 }
 ::-webkit-scrollbar-thumb {
   border-radius: 5px;
-	background-color: var(--main-color);
+  background-color: var(--main-color);
 }
 ::-webkit-scrollbar-thumb:hover {
   background-color: #0de4ce;
@@ -109,12 +109,10 @@ body {
   position: relative;
 }
 .header .container .links .icon {
-  /* flex-grow: 1; */
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
   width: 30px;
-  /* height: 100%; */
 }
 .header .container .links .icon span {
   margin-top: 8px;
@@ -255,7 +253,6 @@ body {
 }
 .services .services-content .col .image {
   position: relative;
-  /* text-align: center; */
   align-self: center;
 }
 .services .services-content .col img {
